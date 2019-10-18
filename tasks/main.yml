@@ -1,0 +1,9 @@
+- name: Add local user
+  user:
+    name: "{{ localuser }}"
+    state: present
+
+- name: Add SSH authorized_keys
+  authorized_key:
+    key: "{{ localuser_pubkey }}"
+    state: present

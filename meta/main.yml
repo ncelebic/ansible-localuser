@@ -1,0 +1,13 @@
+galaxy_info:
+  role_name: localuser
+  author: ncelebic
+  description: adds a user
+  company: mememe
+
+  license: license (GPLv2, CC-BY, etc)
+
+  min_ansible_version: 1.2
+
+  galaxy_tags: []
+
+dependencies: []
